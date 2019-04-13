@@ -1,8 +1,5 @@
 # video-metadata
-This python script uses ffprobe to scrape the video metadata from files in subdirectories and write the output to a CSV.
+This python script takes a list of directories, conducts a recursive scan and gathers the file hash and video metadata (using ffprobe) of all fies, and writes the output to a CSV.
 
-Algorithm and ideas pulled together from:
-
+ideas pulled together from:
 https://gist.github.com/oldo/dc7ee7f28851922cca09
-
-https://stackoverflow.com/questions/120656/directory-listing-in-python
